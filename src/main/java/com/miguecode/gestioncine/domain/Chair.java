@@ -25,11 +25,11 @@ public class Chair {
         return chairNumber;
     }
 
-    public List<Combo> getFoods() {
+    public List<Combo> getCombos() {
         return combos;
     }
 
-    public double getFoodTotalPrice () {
+    public double getComboTotalPrice () {
         double total = 0;
         for(Combo combo: this.combos) {
             total+= combo.getPrice();
